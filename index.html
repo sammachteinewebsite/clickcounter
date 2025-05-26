@@ -1,16 +1,52 @@
 <!DOCTYPE html>
-<html lang="de"
-  <head>
+<html lang="de">
+<head>
   <meta charset="UTF-8">
-  </head> 
-<body> 
-  <p id="Clickcounter"</p>
-  <button onclick="Click Me"</button> 
-  <sript> 
-    let Clickcounter = 0;
-    const clickbetrag = 1;
-    
-  
-  </sript>
+  <title>Meine Uni-Stellen</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+      background-color: #f2f2f2;
+    }
 
+    h1 {
+      color: #333;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 18px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    p {
+      font-size: 24px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Meine Uni-Stellen</h1>
+  <button onclick="increaseCount()">Click me</button>
+  <p>Clicks: <span id="counter">0</span></p>
+
+  <script>
+    let count = 0;
+
+    function increaseCount() {
+      count++;
+      document.getElementById('counter').textContent = count;
+    }
+  </script>
 </body>
+</html>
