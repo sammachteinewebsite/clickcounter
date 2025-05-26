@@ -14,7 +14,7 @@ button {color: silver;
 
 
 button.clicked {
-  transform: scale(1.1);
+  transform: scale(3.0);
   transition: transform 0.1s;
 }
 
