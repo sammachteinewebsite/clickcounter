@@ -3,7 +3,7 @@ h1 {color: grey;
    font-weight: bold;
    text-align: center;}
 
-.button {color: red;
+button {color: red;
          font-size: 20px;
          font-weight: bold cursive;
          text-align: center;}
