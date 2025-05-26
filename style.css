@@ -13,8 +13,5 @@ button {color: silver;
     text-align: center;} 
 
 
-button.clicked {
-  transform: scale(3.0);
-  transition: transform 0.1s;
-}
+
 
